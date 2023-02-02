@@ -14,10 +14,39 @@
 
   <Project></Project>
 
+ <Contact></Contact>
 </main>
 
 <footer>
-  <Contact></Contact>
+
+  <div class="container">
+    <div class="row">
+
+<div class="col-sm-12">
+
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm-6">
+      contact info
+    </div>
+
+    <div class="col-sm-6">
+      social links
+    </div>
+
+  </div>
+</div>
+
+
+</div>
+
+      <div class="col-sm-12 ft">
+<p> &copy; 2023 Made By Reece.</p>
+      </div>
+    </div>
+  </div>
+
 </footer>
 
 </template>
@@ -55,5 +84,15 @@ header{
 main{
   z-index: 2;
   background-color: rgba(250, 235, 215, 0.842);
+}
+
+footer{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.712);
+  padding: 2rem;
+}
+
+.ft{
+  border-top: 1px solid white;
 }
 </style>

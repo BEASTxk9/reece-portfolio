@@ -30,6 +30,14 @@ export default {
   transition: all 0.3s ease-in-out;
 }
 
+h1{
+  border-bottom: 1px solid rgb(110, 110, 110);
+}
+
+p{
+  font-size: 1.1rem;
+}
+
 section{
   min-height: 100vh;
 }
